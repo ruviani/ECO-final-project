@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plastic Pollution Awareness</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #ffffff;
+      line-height: 1.8;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      background-attachment: fixed;
+    }
+    .overlay {
+      background-color: rgba(0, 34, 61, 0.85);
+      padding: 5rem 2rem;
+      min-height: 100vh;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #9cdfff;
+    }
+    h2 {
+      color: #7ac8ff;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    p, ul {
+      font-size: 1.1rem;
+    }
+    ul {
+      margin-left: 1.5rem;
+    }
+    .image-block {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .image-block img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+    }
+    .caption {
+      font-size: 0.95rem;
+      color: #aad2ff;
+      font-style: italic;
+    }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+      .overlay {
+        padding: 3rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <h1>Understanding the Effects of Plastic Pollution</h1>
+
+      <h2>What is Plastic Pollution?</h2>
+      <p>Plastic pollution occurs when plastic waste accumulates in the environment. It’s especially harmful in oceans, rivers, and coastlines where it threatens wildlife, contaminates food chains, and disrupts entire ecosystems.</p>
+
+      <div class="image-block">
+        <img src="https://imgs.search.brave.com/1R6RPSe1iyw6nBJlzmdWd_oBVKWFl9224yVlKdrlowA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ2/NTE0MzAyL3Bob3Rv/L3doYXQtd2FzdGUu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVpVUzhfaTVNenFj/My12cDhCRVZXZU9W/Q25xNWtWQkRYMzlZ/cXRibTJyRXM9" alt="Plastic waste in ocean">
+        <div class="caption">Plastic debris pollutes beaches and waterways globally.</div>
+      </div>
+
+      <h2>Key Facts</h2>
+      <ul>
+        <li>Over 8 million tons of plastic end up in the ocean each year.</li>
+        <li>There are over 5 trillion plastic particles floating in our seas.</li>
+        <li>Plastic can take up to 500 years to decompose.</li>
+        <li>Every minute, the equivalent of one garbage truck of plastic is dumped into the ocean.</li>
+      </ul>
+
+      <h2>Main Causes</h2>
+      <ul>
+        <li>Single-use plastics like bags, straws, and packaging</li>
+        <li>Poor recycling and waste disposal systems</li>
+        <li>Global overproduction of plastic materials</li>
+      </ul>
+
+      <div class="image-block">
+        <img src="https://imgs.search.brave.com/nsafozodwh19i_WL2D5L201Ov0t68wrY2L0zAn3iz6w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9uYXR1/cmVjb2RlLm9yZy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxOS8w/Ni9SZXVzYWJsZS1J/dGVtcy0xMDI0eDY4/My5qcGc" alt="Plastic reuse">
+        <div class="caption">Switching to reusable items is a powerful solution.</div>
+      </div>
+
+      <h2>Environmental & Health Effects</h2>
+      <ul>
+        <li>Marine life consumes plastic, mistaking it for food.</li>
+        <li>Microplastics are found in drinking water and seafood.</li>
+        <li>Toxic chemicals from plastics harm animal and human health.</li>
+      </ul>
+
+      <h2>What You Can Do</h2>
+      <ul>
+        <li>Reduce use of plastic products—especially single-use ones.</li>
+        <li>Participate in local clean-up events.</li>
+        <li>Support laws that restrict plastic waste and encourage recycling.</li>
+        <li>Educate your community about the issue.</li>
+      </ul>
+
+      <div class="image-block">
+        <img src="https://www.reuters.com/resizer/v2/Z5I6XFFI55K2FKMXSN7SXIIRCY.jpg?auth=2760d5daa44da83c9822b2569928e08bc76f8057950be1abb33c5feaa410a1ca&width=960&quality=80" alt="People cleaning beach">
+        <div class="caption">Community efforts make a huge difference in local environments.</div>
+      </div>
+
+      <h2>Sources</h2>
+      <p>
+        <a href="https://www.nationalgeographic.com/environment">National Geographic</a><br>
+        <a href="https://www.unep.org/">UN Environment Programme (UNEP)</a><br>
+        <a href="https://www.worldwildlife.org/">World Wildlife Fund (WWF)</a><br>
+        <a href="https://plasticoceans.org/">Plastic Oceans International</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
