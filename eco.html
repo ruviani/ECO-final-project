@@ -2,127 +2,165 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Plastic Pollution Awareness</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stop Plastic Pollution</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
   <style>
     * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
     }
     body {
-      font-family: 'Poppins', sans-serif;
-      color: #ffffff;
-      line-height: 1.8;
-      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
-      background-attachment: fixed;
+      font-family: 'Space Grotesk', sans-serif;
+      background-color: #f4f9ff;
+      color: #1f2e4c;
+      line-height: 1.6;
     }
-    .overlay {
-      background-color: rgba(0, 34, 61, 0.85);
-      padding: 5rem 2rem;
-      min-height: 100vh;
+    header {
+      background-color: #003f88;
+      color: white;
+      padding: 4rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
     }
-    h1 {
+    header .text {
+      max-width: 600px;
+    }
+    header h1 {
       font-size: 3rem;
-      font-weight: 700;
-      text-align: center;
-      margin-bottom: 2rem;
-      color: #9cdfff;
+      margin-bottom: 1rem;
     }
-    h2 {
-      color: #7ac8ff;
+    header p {
+      font-size: 1.2rem;
+    }
+    header img {
+      max-width: 400px;
+      width: 100%;
+      border-radius: 10px;
       margin-top: 2rem;
-      margin-bottom: 0.5rem;
     }
-    .container {
-      max-width: 900px;
+    nav {
+      background-color: #012a4a;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
       margin: auto;
     }
-    p, ul {
-      font-size: 1.1rem;
+    h2 {
+      color: #003f88;
+      font-size: 2rem;
+      margin-bottom: 1rem;
     }
-    ul {
-      margin-left: 1.5rem;
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      margin-bottom: 2rem;
     }
-    .image-block {
-      margin: 2rem 0;
-      text-align: center;
-    }
-    .image-block img {
+    .card img {
       width: 100%;
-      max-width: 800px;
+      max-height: 250px;
+      object-fit: cover;
       border-radius: 8px;
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
     }
-    .caption {
-      font-size: 0.95rem;
-      color: #aad2ff;
-      font-style: italic;
+    footer {
+      background-color: #012a4a;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .buttons a {
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      margin-right: 1rem;
+      background-color: #0077b6;
+      color: white;
+      font-weight: bold;
     }
     @media (max-width: 768px) {
-      h1 {
-        font-size: 2.2rem;
+      header {
+        flex-direction: column;
+        text-align: center;
       }
-      .overlay {
-        padding: 3rem 1.5rem;
+      nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
       }
     }
   </style>
 </head>
 <body>
-  <div class="overlay">
-    <div class="container">
-      <h1>Understanding the Effects of Plastic Pollution</h1>
+  <nav>
+    <div><strong>EcoAware</strong></div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Causes</a></li>
+      <li><a href="#">Solutions</a></li>
+      <li><a href="#">Get Involved</a></li>
+    </ul>
+  </nav>
 
-      <h2>What is Plastic Pollution?</h2>
-      <p>Plastic pollution occurs when plastic waste accumulates in the environment. It’s especially harmful in oceans, rivers, and coastlines where it threatens wildlife, contaminates food chains, and disrupts entire ecosystems.</p>
-
-      <div class="image-block">
-        <img src="https://imgs.search.brave.com/1R6RPSe1iyw6nBJlzmdWd_oBVKWFl9224yVlKdrlowA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ2/NTE0MzAyL3Bob3Rv/L3doYXQtd2FzdGUu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVpVUzhfaTVNenFj/My12cDhCRVZXZU9W/Q25xNWtWQkRYMzlZ/cXRibTJyRXM9" alt="Plastic waste in ocean">
-        <div class="caption">Plastic debris pollutes beaches and waterways globally.</div>
+  <header>
+    <div class="text">
+      <h1>Combat Plastic Pollution</h1>
+      <p>Learn how plastic waste impacts our planet—and what you can do to help. Join the movement for a cleaner, healthier world.</p>
+      <div class="buttons">
+        <a href="#">Join Now</a>
+        <a href="#">Learn More</a>
       </div>
+    </div>
+    <img src="https://images.unsplash.com/photo-1615397360982-cc5c7a4d3015?auto=format&fit=crop&w=1000&q=80" alt="Plastic Waste">
+  </header>
 
-      <h2>Key Facts</h2>
+  <section>
+    <div class="card">
+      <h2>The Problem</h2>
+      <p>Over 380 million tons of plastic are produced every year. A large portion ends up in the oceans, harming marine life and entering our food chain through microplastics.</p>
+    </div>
+
+    <div class="card">
+      <h2>Causes of Plastic Pollution</h2>
       <ul>
-        <li>Over 8 million tons of plastic end up in the ocean each year.</li>
-        <li>There are over 5 trillion plastic particles floating in our seas.</li>
-        <li>Plastic can take up to 500 years to decompose.</li>
-        <li>Every minute, the equivalent of one garbage truck of plastic is dumped into the ocean.</li>
+        <li>Over-reliance on single-use plastics</li>
+        <li>Lack of efficient waste disposal systems</li>
+        <li>Consumer ignorance and corporate negligence</li>
       </ul>
+    </div>
 
-      <h2>Main Causes</h2>
+    <div class="card">
+      <h2>Solutions</h2>
       <ul>
-        <li>Single-use plastics like bags, straws, and packaging</li>
-        <li>Poor recycling and waste disposal systems</li>
-        <li>Global overproduction of plastic materials</li>
+        <li>Use reusable products like metal straws and tote bags</li>
+        <li>Support policies banning single-use plastics</li>
+        <li>Participate in clean-up campaigns</li>
+        <li>Spread awareness through social media and education</li>
       </ul>
+    </div>
 
-      <div class="image-block">
-        <img src="https://imgs.search.brave.com/nsafozodwh19i_WL2D5L201Ov0t68wrY2L0zAn3iz6w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9uYXR1/cmVjb2RlLm9yZy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxOS8w/Ni9SZXVzYWJsZS1J/dGVtcy0xMDI0eDY4/My5qcGc" alt="Plastic reuse">
-        <div class="caption">Switching to reusable items is a powerful solution.</div>
-      </div>
-
-      <h2>Environmental & Health Effects</h2>
-      <ul>
-        <li>Marine life consumes plastic, mistaking it for food.</li>
-        <li>Microplastics are found in drinking water and seafood.</li>
-        <li>Toxic chemicals from plastics harm animal and human health.</li>
-      </ul>
-
-      <h2>What You Can Do</h2>
-      <ul>
-        <li>Reduce use of plastic products—especially single-use ones.</li>
-        <li>Participate in local clean-up events.</li>
-        <li>Support laws that restrict plastic waste and encourage recycling.</li>
-        <li>Educate your community about the issue.</li>
-      </ul>
-
-      <div class="image-block">
-        <img src="https://www.reuters.com/resizer/v2/Z5I6XFFI55K2FKMXSN7SXIIRCY.jpg?auth=2760d5daa44da83c9822b2569928e08bc76f8057950be1abb33c5feaa410a1ca&width=960&quality=80" alt="People cleaning beach">
-        <div class="caption">Community efforts make a huge difference in local environments.</div>
-      </div>
-
+    <div class="card">
       <h2>Sources</h2>
       <p>
         <a href="https://www.nationalgeographic.com/environment">National Geographic</a><br>
@@ -131,6 +169,11 @@
         <a href="https://plasticoceans.org/">Plastic Oceans International</a>
       </p>
     </div>
-  </div>
+  </section>
+
+  <footer>
+    <p>© 2025 EcoAware Campaign. Designed for educational purposes.</p>
+  </footer>
 </body>
 </html>
+
